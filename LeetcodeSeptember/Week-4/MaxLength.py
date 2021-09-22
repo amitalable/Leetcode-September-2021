@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters
+from typing import List
 class Solution:
     def dfs(self, arr, pos, res):
         if len(res) != len(set(res)):
